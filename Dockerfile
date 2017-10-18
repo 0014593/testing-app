@@ -1,4 +1,4 @@
 FROM frolvlad/alpine-glibc
-COPY app /app
+ADD app /app
 EXPOSE 26446
 CMD /app
